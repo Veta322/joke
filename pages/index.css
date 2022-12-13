@@ -46,7 +46,6 @@
   .joke {
     height: 70%;
     width: 100%;
-
   }
 }
 
@@ -75,8 +74,8 @@
 
 @media screen and (max-width: 768px) {
   .button {
- left:95px;
-
+ left:0px;
+ width: 100%;
   }
 }
 
