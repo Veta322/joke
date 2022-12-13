@@ -1,0 +1,74 @@
+@import url(../vendor/fonts/fonts.css);
+@import url(../vendor/normalize.css);
+
+.page {
+  font-family: 'DMSans', 'Arial', 'Helvetica', sans-serif;
+  min-width: 320px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  background-color: black;
+}
+
+.background{
+ opacity: 0.3;
+  height: 100vh;
+  background-image: url("../images/8d219deff4217cf34b24feae1df7bd12.jpg");
+  border: 1px solid white;
+  position: relative;
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.joke{
+  position: absolute;
+  border: 1px solid white;
+  height: 70%;
+  width: 50%;
+  bottom:120px;
+  display: flex;
+  justify-content: center;
+  flex-direction: center;
+  align-items: center;
+}
+
+.button{
+  position: absolute;
+  bottom: 20px;
+  left:160px;
+  background: peachpuff;
+  padding: 0;
+  text-align: center;
+  border-radius: 90px;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 16px;
+  width: 200px;
+  height: 70px;
+  border: 1px solid pink;
+  opacity: 1;
+}
+.button:hover{
+ opacity: 0.5;
+ transition: 0.2s;
+ cursor: pointer;
+}
+
+.phrase{
+  color: bisque;
+  margin: 0;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.1;
+  
+}
