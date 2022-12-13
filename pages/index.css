@@ -42,6 +42,15 @@
   align-items: center;
 }
 
+@media screen and (max-width: 768px) {
+  .joke {
+    height: 70%;
+    width: 100%;
+
+  }
+}
+
+
 .button{
   position: absolute;
   bottom: 20px;
@@ -63,6 +72,14 @@
  transition: 0.2s;
  cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+  .button {
+ left:95px;
+
+  }
+}
+
 
 .phrase{
   color: bisque;
