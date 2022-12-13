@@ -54,7 +54,7 @@
 .button{
   position: absolute;
   bottom: 20px;
-  left:160px;
+  left: 215px;
   background: peachpuff;
   padding: 0;
   text-align: center;
@@ -62,8 +62,8 @@
   font-weight: 700;
   font-size: 25px;
   line-height: 16px;
-  width: 200px;
-  height: 70px;
+  width: 250px;
+  height: 80px;
   border: 1px solid pink;
   opacity: 1;
 }
