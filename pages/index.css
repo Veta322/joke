@@ -23,19 +23,21 @@
   height: 100vh;
   background-image: url("../images/8d219deff4217cf34b24feae1df7bd12.jpg");
   border: 1px solid white;
-  position: relative;
-  display: flex;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
+.page__content{
+  position: relative;
+}
+
 .joke{
-  position: absolute;
+  
   border: 1px solid white;
   height: 70%;
-  width: 50%;
-  bottom:120px;
+  width: 100%;
+  
   display: flex;
   justify-content: center;
   flex-direction: center;
@@ -51,9 +53,8 @@
 
 
 .button{
-  position: absolute;
-  bottom: 20px;
-  left: 215px;
+  
+  
   background: peachpuff;
   padding: 0;
   text-align: center;
@@ -74,7 +75,7 @@
 
 @media screen and (max-width: 768px) {
   .button {
- left:0px;
+
  width: 100%;
   }
 }
@@ -87,4 +88,23 @@
   font-weight: bold;
   line-height: 1.1;
   
+}
+
+.content{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top:0;
+
+}
+
+@media screen and (max-width: 768px) {
+  .content{
+
+ width: 100%;
+  }
 }
